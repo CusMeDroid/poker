@@ -76,7 +76,7 @@ function internal_setCard (diva, card, folded) {
   var opacity = 1.0;
   if (typeof card === 'undefined') {
     alert('Undefined card ' + card);
-    image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/outline.gif')";
+    image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/outline.png')";
   } else if (card === "") {
     image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/outline.png')";
   } else if (card === "blinded") {
