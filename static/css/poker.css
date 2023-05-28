@@ -1,6 +1,3 @@
-html {
-
-}
 .card {
      -webkit-filter: drop-shadow(0px 0px 1px #000);
      filter: drop-shadow(0px 0px 1px #000);
@@ -65,7 +62,7 @@ html {
     width: 150px;
 }
 #button0, #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9 {
-    background-image: url('../images/dealerbutton.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/dealerbutton.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 19px;
@@ -154,7 +151,7 @@ html {
     left: 5px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('../images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -166,7 +163,7 @@ html {
     left: 46px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('../images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -178,7 +175,7 @@ html {
     left: -15px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('../images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -190,7 +187,7 @@ html {
     left: 26px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('../images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -214,8 +211,6 @@ html {
     text-shadow: 0 0 5px #000;
     background: #000;
     text-align: center;
-
-
 }
 
 #mybet {
@@ -234,8 +229,6 @@ html {
     text-shadow: 0 0 5px #000;
     background: #000;
     text-align: center;
-
-
 }
 
 #seat1 {
@@ -452,7 +445,7 @@ html {
 }
 
 .setup-button {
-    background-image: url('../images/buttonpurple.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/buttonpurple.png');
     border-radius:2px;
     height: 30px;
     color: white;
@@ -532,7 +525,7 @@ select {
 }
 
 #fold-button {
-    background-image: url('../images/buttonred.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/buttonred.png');
     text-align: center;
     float: left;
     left: 0;
@@ -551,7 +544,7 @@ select {
 }
 
 #call-button {
-    background-image: url('../images/buttongreen.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/buttongreen.png');
 }
 
 #call-button:hover {
