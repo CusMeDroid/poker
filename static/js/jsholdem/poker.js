@@ -1,12 +1,5 @@
-/*
-If you improve this software or find a bug, please let me know: orciu@users.sourceforge.net
-Project home page: http://sourceforge.net/projects/jsholdem/
-*/
 "use strict";
 
-//speed pitch/tempo/speed
-//1.103
-//10.290
 var audio1 = new Audio('sounds/winner.wav');
 var audio2 = new Audio('sounds/allin.wav');
 var audio3 = new Audio('sounds/fold.wav');
