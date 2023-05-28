@@ -1003,21 +1003,21 @@ function handle_end_of_round () {
 
 function autoplay_new_round () {
 
-     document.getElementById("avatar1").src = "avatar/_bot1_normal.png";    
+     document.getElementById("avatar1").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot1_normal.png";    
 
-     document.getElementById("avatar2").src = "avatar/_bot2_normal.png";    
+     document.getElementById("avatar2").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot2_normal.png";    
 
-     document.getElementById("avatar3").src = "avatar/_bot3_normal.png";    
+     document.getElementById("avatar3").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot3_normal.png";    
 
-     document.getElementById("avatar4").src = "avatar/_bot4_normal.png";    
+     document.getElementById("avatar4").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot4_normal.png";    
 
-     document.getElementById("avatar5").src = "avatar/_bot5_normal.png";    
+     document.getElementById("avatar5").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot5_normal.png";    
 
-     document.getElementById("avatar6").src = "avatar/_bot6_normal.png";    
+     document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot6_normal.png";    
  
-     document.getElementById("avatar7").src = "avatar/_bot7_normal.png";    
+     document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot7_normal.png";    
 
-     document.getElementById("avatar8").src = "avatar/_bot8_normal.png";    
+     document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/_bot8_normal.png";    
   
   if (STOP_AUTOPLAY > 0) {
     STOP_AUTOPLAY = 0;
@@ -1271,7 +1271,7 @@ function the_bet_function (player_index, bet_amount) {
                {
                $("#botspeech1").text("I check...");
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech1").show().delay(5000).fadeOut();
                document.getElementById("bbet1").style.background = "orange";
@@ -1280,7 +1280,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 2 && players[2].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").text("I check...");
                $("#botspeech2").show().delay(5000).fadeOut();
@@ -1290,7 +1290,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 3 && players[3].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").text("I check...");
                $("#botspeech3").show().delay(5000).fadeOut();
@@ -1300,7 +1300,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 4 && players[4].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech4").text("I check...");
                $("#botspeech4").show().delay(5000).fadeOut();
@@ -1310,7 +1310,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 5 && players[5].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").text("I check...");
                $("#botspeech5").show().delay(5000).fadeOut();
@@ -1320,7 +1320,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 6 && players[6].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").text("I check...");
                $("#botspeech6").show().delay(5000).fadeOut();
@@ -1330,7 +1330,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 7 && players[7].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").text("I check...");
                $("#botspeech7").show().delay(5000).fadeOut();
@@ -1340,7 +1340,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 8 && players[8].subtotal_bet == 0 && checkblinds > 3)
                {
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").text("I check...");
                $("#botspeech8").show().delay(5000).fadeOut();
@@ -2295,7 +2295,7 @@ function bet_from_bot (x) {
                
                document.getElementById("bbet1").style.background = "black";
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                
                $("#botspeech1").text("I fold...");
@@ -2306,7 +2306,7 @@ function bet_from_bot (x) {
                $("#botspeech2").text("I fold...");
                $("#botspeech2").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet2").style.background = "black";
                }
@@ -2315,7 +2315,7 @@ function bet_from_bot (x) {
                $("#botspeech3").text("I fold...");
                $("#botspeech3").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet3").style.background = "black";
                }
@@ -2324,7 +2324,7 @@ function bet_from_bot (x) {
                $("#botspeech4").text("I fold...");
                $("#botspeech4").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet4").style.background = "black";
                }
@@ -2332,7 +2332,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech5").text("I fold...");
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").show().delay(5000).fadeOut();
                document.getElementById("bbet5").style.background = "black";
@@ -2341,7 +2341,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech6").text("I fold...");
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").show().delay(5000).fadeOut();
                document.getElementById("bbet6").style.background = "black";
@@ -2350,7 +2350,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech7").text("I fold...");
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").show().delay(5000).fadeOut();
                document.getElementById("bbet7").style.background = "black";
@@ -2360,7 +2360,7 @@ function bet_from_bot (x) {
                $("#botspeech8").text("I fold...");
                $("#botspeech8").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_normal.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_normal.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet8").style.background = "black";
                } 
@@ -2377,7 +2377,7 @@ function bet_from_bot (x) {
                {
          
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech1").text("I call...");
                $("#botspeech1").show().delay(5000).fadeOut();
@@ -2388,7 +2388,7 @@ function bet_from_bot (x) {
                $("#botspeech2").text("I call...");
                
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").show().delay(5000).fadeOut();
                document.getElementById("bbet2").style.background = "lawngreen";
@@ -2397,7 +2397,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech3").text("I call...");
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").show().delay(5000).fadeOut();
                document.getElementById("bbet3").style.background = "lawngreen";
@@ -2407,7 +2407,7 @@ function bet_from_bot (x) {
                $("#botspeech4").text("I call...");
                $("#botspeech4").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet4").style.background = "lawngreen";
                }
@@ -2415,7 +2415,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech5").text("I call...");
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").show().delay(5000).fadeOut();
                document.getElementById("bbet5").style.background = "lawngreen";
@@ -2424,7 +2424,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech6").text("I call...");
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").show().delay(5000).fadeOut();
                document.getElementById("bbet6").style.background = "lawngreen";
@@ -2433,7 +2433,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech7").text("I call...");
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").show().delay(5000).fadeOut();
                document.getElementById("bbet7").style.background = "lawngreen";
@@ -2442,7 +2442,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech8").text("I call...");
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").show().delay(5000).fadeOut();
                document.getElementById("bbet8").style.background = "lawngreen"; 
@@ -2462,7 +2462,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech1").text("I call...");
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech1").show().delay(5000).fadeOut();
                document.getElementById("bbet1").style.background = "lawngreen";
@@ -2472,7 +2472,7 @@ function bet_from_bot (x) {
                $("#botspeech2").text("I call...");
                
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").show().delay(5000).fadeOut();
                document.getElementById("bbet2").style.background = "lawngreen";
@@ -2481,7 +2481,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech3").text("I call...");
                 var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").show().delay(5000).fadeOut();
                document.getElementById("bbet3").style.background = "lawngreen";
@@ -2491,7 +2491,7 @@ function bet_from_bot (x) {
                $("#botspeech4").text("I call...");
                $("#botspeech4").show().delay(5000).fadeOut();
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                document.getElementById("bbet4").style.background = "lawngreen";
                }
@@ -2499,7 +2499,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech5").text("I call...");
                  var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").show().delay(5000).fadeOut();
                document.getElementById("bbet5").style.background = "lawngreen";
@@ -2508,7 +2508,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech6").text("I call...");
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").show().delay(5000).fadeOut();
                document.getElementById("bbet6").style.background = "lawngreen";
@@ -2517,7 +2517,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech7").text("I call...");
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").show().delay(5000).fadeOut();
                document.getElementById("bbet7").style.background = "lawngreen";
@@ -2526,7 +2526,7 @@ function bet_from_bot (x) {
                {
                $("#botspeech8").text("I call...");
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").show().delay(5000).fadeOut();
                document.getElementById("bbet8").style.background = "lawngreen"; 
@@ -2544,7 +2544,7 @@ function bet_from_bot (x) {
                if (x == 1)
                {
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech1").text("I raise...");
                $("#botspeech1").show().delay(5000).fadeOut();
@@ -2553,7 +2553,7 @@ function bet_from_bot (x) {
                if (x == 2)
                {
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").text("I raise...");
                $("#botspeech2").show().delay(5000).fadeOut();
@@ -2562,7 +2562,7 @@ function bet_from_bot (x) {
                if (x == 3)
                {
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").text("I raise...");
                $("#botspeech3").show().delay(5000).fadeOut();
@@ -2571,7 +2571,7 @@ function bet_from_bot (x) {
                if (x == 4)
                {
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech4").text("I raise...");
                $("#botspeech4").show().delay(5000).fadeOut();
@@ -2580,7 +2580,7 @@ function bet_from_bot (x) {
                if (x == 5)
                {
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").text("I raise...");
                $("#botspeech5").show().delay(5000).fadeOut();
@@ -2588,9 +2588,9 @@ function bet_from_bot (x) {
                }
                if (x == 6)
                {
-               document.getElementById("avatar6").src = "avatar/_bot6_call.png";
+               document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_call.png";
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").text("I raise...");
                $("#botspeech6").show().delay(5000).fadeOut();
@@ -2599,7 +2599,7 @@ function bet_from_bot (x) {
                if (x == 7)
                {
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").text("I raise...");
                $("#botspeech7").show().delay(5000).fadeOut();
@@ -2608,7 +2608,7 @@ function bet_from_bot (x) {
                if (x == 8)
                {
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_call.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_call.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").text("I raise...");
                $("#botspeech8").show().delay(5000).fadeOut();
@@ -2714,49 +2714,49 @@ function write_player (n, hilite, show_cards) {
                if (players[1].status == "BUST")
                {
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[2].status == "BUST")
                {
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[3].status == "BUST")
                {
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[4].status == "BUST")
                {
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[5].status == "BUST")
                {
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[6].status == "BUST")
                {
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[7].status == "BUST")
                {
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
                if (players[8].status == "BUST")
                {
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_normal.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_normal.png";
                document.getElementById(avatarname).src = avatarimage;
                }
     bet_text = "BUSTED";
@@ -2774,7 +2774,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 1)
                {
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech1").text("All In...");
                $("#botspeech1").show().delay(5000).fadeOut();
@@ -2783,7 +2783,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 2)
                {
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").text("All In...");
                $("#botspeech2").show().delay(5000).fadeOut();
@@ -2792,7 +2792,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 3)
                {
                 var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").text("All In...");
                $("#botspeech3").show().delay(5000).fadeOut();
@@ -2801,7 +2801,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 4)
                {
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech4").text("All In...");
                $("#botspeech4").show().delay(5000).fadeOut();
@@ -2810,7 +2810,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 5)
                {
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").text("All In...");
                $("#botspeech5").show().delay(5000).fadeOut();
@@ -2819,7 +2819,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 6)
                {
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").text("All In...");
                $("#botspeech6").show().delay(5000).fadeOut();
@@ -2828,7 +2828,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 7)
                {
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").text("All In...");
                $("#botspeech7").show().delay(5000).fadeOut();
@@ -2837,7 +2837,7 @@ function write_player (n, hilite, show_cards) {
                if (n == 8)
                {
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_call.png";
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_call.png";
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").text("All In...");
                $("#botspeech8").show().delay(5000).fadeOut();
