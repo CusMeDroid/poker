@@ -31,7 +31,6 @@
     <style type="text/css">
         body {
           font-family: tabular;
-
         }
         body, html {
             margin: 0 auto;
@@ -39,7 +38,6 @@
             width: 100%;
             font-family: tabular;
             height: 100%;
-            min-height: 720px;
             background: url(static/images/wood.jpg) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -68,9 +66,8 @@
 
         }
         #cheatsheet {
-            top: 520px;
             width: 338px;
-            height: 127px;
+            height: auto;
             background-image: url(static/images/carbon.png);
             background-repeat: repeat;
             border-radius: 3px;
@@ -80,9 +77,9 @@
             z-index: 99999 !important;
             cursor: default;
             margin: 0 auto;
-            left: 0; 
+            left: 0;
             right: 0;
-            margin-bottom: 50px;
+            bottom: 0;
         }
         @font-face {
             font-family: 'digital';
@@ -552,60 +549,69 @@ function display_allbot8pokerchips() {
     </div>
  
     <div id="cheatsheet">
-    
-<div id="tik"  style="max-width: 338px;margin: 0 auto;left: 0; right: 0;height:24px; background-image: url('static/images/buttonlcd.png');position: absolute;display:none;">
-<div id="game-response2" class="textVerticalScroll" style="margin-left: 20px; margin-right: 20px;border-radius:0 0 15px 15px;font-family: digital !important;max-width:338px;left: 0; right: 0;height:24px;color:blue;top:0;vertical-align:middle;margin:0 auto; text-align: center;font-size: 16px !important; line-height: 18px;z-index: 9999999;text-decoration: none !important;padding-left: 20px; padding-right: 20px;"></div></div>
+        <div id="hhssl">Show/Hide</div>
+        <div id="cuksek">
+            <div id="tik" style="max-width: 338px;margin: 0 auto;left: 0; right: 0;height:24px; background-image: url('static/images/buttonlcd.png');position: absolute;display:none;">
+                <div id="game-response2" class="textVerticalScroll" style="margin-left: 20px; margin-right: 20px;border-radius:0 0 15px 15px;font-family: digital !important;max-width:338px;left: 0; right: 0;height:24px;color:blue;top:0;vertical-align:middle;margin:0 auto; text-align: center;font-size: 16px !important; line-height: 18px;z-index: 9999999;text-decoration: none !important;padding-left: 20px; padding-right: 20px;"></div>
+            </div>
 
-      <div id="mainsettings">
-    <div id="action-options" style="">
-        <div id="fold-button" class="action-button"></div>
-        <div id="call-button" class="action-button"></div>
-    </div>
-     <div id="quick-raises" style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis;"></div>
-    <div id="logo" style="background: #000;height:118px;width:298px;margin-top:84px;border-top: 1px solid yellowgreen; border-bottom: 1px solid yellowgreen;display:none"><span class="speech-bubble" style="display:none" id="botspeech9"></span> 
-
-    <div id="game-response" class="normal-response"></div>
-</div>         
-     
-  
- 
- 
- <div id="setup-options" style="margin-top:84px;">
-        <div id="name-button" class="setup-button">name</div>
-        <div id="speed-button" class="setup-button">speed
-           <div id="speed-selector" style="font-size:12px;">
-              <select id="speed-options" style="font-size:12px;">
-                 <option value="0">1</option>
-                 <option value="1">2</option>
-                 <option value="2">3</option>
-                 <option value="3">4</option>
-                 <option value="4">5</option>
-              </select>
-           </div>
+            <div id="mainsettings">
+                <div id="action-options" style="">
+                    <div id="fold-button" class="action-button"></div>
+                    <div id="call-button" class="action-button"></div>
+                </div>
+                <div id="quick-raises" style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis;"></div>
+                <div id="logo" style="background: #000;height:118px;width:298px;margin-top:84px;border-top: 1px solid yellowgreen; border-bottom: 1px solid yellowgreen;display:none"><span class="speech-bubble" style="display:none" id="botspeech9"></span> 
+                    <div id="game-response" class="normal-response"></div>
+                </div> 
+                 <div id="setup-options" style="margin-top:84px;">
+                   <div id="name-button" class="setup-button">name</div>
+                    <div id="speed-button" class="setup-button">speed
+                       <div id="speed-selector" style="font-size:12px;">
+                          <select id="speed-options" style="font-size:12px;">
+                             <option value="0">1</option>
+                             <option value="1">2</option>
+                             <option value="2">3</option>
+                             <option value="3">4</option>
+                             <option value="4">5</option>
+                          </select>
+                       </div>
+                    </div>
+                    <div id="felt-button" class="setup-button" onclick="changetable();">table</div>
+                    <div id="check-button" class="setup-button">update</div>
+                    <div id="help-button" class="setup-button">help</div>
+                    <div id="mode-button" class="setup-button" style="">theme</div>
+                    <div id="" class="setup-button">anchor<input type="checkbox" id="lock" name="lock" checked onchange="lock()"></div>
+                    <div id="" class="setup-button">sound<input type="checkbox" id="sound" name="sound" checked onchange="checksound()"></div>
+                </div>        
+            </div>
         </div>
-        <div id="felt-button" class="setup-button" onclick="changetable();">table</div>
-        <div id="check-button" class="setup-button">update</div>
-        <div id="help-button" class="setup-button">help</div>
-        <div id="mode-button" class="setup-button" style="">theme</div>
-        <div id="" class="setup-button">anchor<input type="checkbox" id="lock" name="lock" checked onchange="lock()"></div>
-        <div id="" class="setup-button">sound<input type="checkbox" id="sound" name="sound" checked onchange="checksound()"></div>
-    </div>        
-          
-     </div>
-
     </div>    <!-- end of cheatsheet--> 
  
-   <style>
-
-      #game-response2 {
-     
-        width: 338px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        position: relative;
-      }
-      
+    <style type="text/css">
+        #hhssl {
+            text-align: center;
+            padding: 8px;
+            color: #fff;
+        }
+        #cuksek {
+            display: none;
+        }
+        #game-response2 { 
+            width: 338px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            position: relative;
+        }
     </style>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $("#hhssl").click(function(){
+            $("#cuksek").slideToggle();
+          });
+        });
+    </script>
 
 <audio id="casino" loop>
   <source src="casino.ogg" type="audio/ogg">
@@ -631,7 +637,6 @@ clickonce = 1;
 });
 </script>
    <style>
-    
     #cs {
     width: 280px;
     table-layout: fixed;
@@ -875,11 +880,9 @@ setLocalStorage("currenttable", currenttable);
 <script type="text/javascript">
     function myFunction(x) {
       if (x.matches) { // If media query matches
-        document.getElementById("cheatsheet").style.display = "none";
         document.getElementById("poker_table").style.display = "none";
         document.getElementById("rtt").style.display = "block";
       } else {
-        document.getElementById("cheatsheet").style.display = "block";
         document.getElementById("poker_table").style.display = "block";
         document.getElementById("rtt").style.display = "none";
       }
