@@ -3077,7 +3077,7 @@ function change_name () {
 function help_func () {
   // Open help.html
   var url = 'cheatsheet.html';
-  var win = window.open(url, '_blank');
+  var win = window.open(url);
   win.focus();
 }
 
