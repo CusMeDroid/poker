@@ -170,21 +170,21 @@ function double_check() {
 
 function new_game () {
 //marker
-     document.getElementById("avatar1").src = "avatar/_bot1_normal.png";    
+     document.getElementById("avatar1").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot1_normal.png";    
 
-     document.getElementById("avatar2").src = "avatar/_bot2_normal.png";    
+     document.getElementById("avatar2").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot2_normal.png";    
 
-     document.getElementById("avatar3").src = "avatar/_bot3_normal.png";    
+     document.getElementById("avatar3").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot3_normal.png";    
 
-     document.getElementById("avatar4").src = "avatar/_bot4_normal.png";    
+     document.getElementById("avatar4").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot4_normal.png";    
 
-     document.getElementById("avatar5").src = "avatar/_bot5_normal.png";    
+     document.getElementById("avatar5").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot5_normal.png";    
 
-     document.getElementById("avatar6").src = "avatar/_bot6_normal.png";    
+     document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_normal.png";    
  
-     document.getElementById("avatar7").src = "avatar/_bot7_normal.png";    
+     document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot7_normal.png";    
 
-     document.getElementById("avatar8").src = "avatar/_bot8_normal.png";
+     document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png";
                checkblinds = 0;
                document.getElementById("seat0").style.display = "block";
                document.getElementById("seat1").style.display = "block";
@@ -349,21 +349,21 @@ for (var x = 0; x < 20; x++)
 }
   randompokerchips = 0;  
   
-      document.getElementById("avatar1").src = "avatar/_bot1_normal.png";    
+      document.getElementById("avatar1").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot1_normal.png";    
 
-     document.getElementById("avatar2").src = "avatar/_bot2_normal.png";    
+     document.getElementById("avatar2").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot2_normal.png";    
 
-     document.getElementById("avatar3").src = "avatar/_bot3_normal.png";    
+     document.getElementById("avatar3").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot3_normal.png";    
 
-     document.getElementById("avatar4").src = "avatar/_bot4_normal.png";    
+     document.getElementById("avatar4").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot4_normal.png";    
 
-     document.getElementById("avatar5").src = "avatar/_bot5_normal.png";    
+     document.getElementById("avatar5").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot5_normal.png";    
 
-     document.getElementById("avatar6").src = "avatar/_bot6_normal.png";    
+     document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_normal.png";    
  
-     document.getElementById("avatar7").src = "avatar/_bot7_normal.png";    
+     document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot7_normal.png";    
 
-     document.getElementById("avatar8").src = "avatar/_bot8_normal.png"; 
+     document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png"; 
        
                document.getElementById("mybet").style.background = "black";
                document.getElementById("bbet1").style.background = "black";
@@ -897,14 +897,14 @@ function handle_end_of_round () {
   var getmycurrenttime = new Date().toLocaleString();
   var winningstring =   "[" + getmycurrenttime + "] " + "<font color='blue'>Game</font>: " + mynumberofgames + ", <font color='blue'>You win this round</font>: " + mynumberofroundswon + "/" + mynumberofrounds;
  // gui_log_to_history(winningstring);
-       document.getElementById("avatar1").src = "avatar/_bot1_normal.png"; 
-       document.getElementById("avatar2").src = "avatar/_bot2_normal.png";
-       document.getElementById("avatar3").src = "avatar/_bot3_normal.png";
-       document.getElementById("avatar4").src = "avatar/_bot4_normal.png";
-       document.getElementById("avatar5").src = "avatar/_bot5_normal.png";
-       document.getElementById("avatar6").src = "avatar/_bot6_normal.png";
-       document.getElementById("avatar7").src = "avatar/_bot7_normal.png";
-       document.getElementById("avatar8").src = "avatar/_bot8_normal.png";    
+       document.getElementById("avatar1").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot1_normal.png"; 
+       document.getElementById("avatar2").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot2_normal.png";
+       document.getElementById("avatar3").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot3_normal.png";
+       document.getElementById("avatar4").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot4_normal.png";
+       document.getElementById("avatar5").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot5_normal.png";
+       document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_normal.png";
+       document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot7_normal.png";
+       document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png";    
   } else {
     HUMAN_WINS_AGAIN = 0;
 
@@ -983,14 +983,14 @@ function handle_end_of_round () {
         end_msg += "\n\nYOU WIN " + players[0].name.toUpperCase() + "!!!";
             audio1.play();
             audio5.play();
-       document.getElementById("avatar1").src = "avatar/_bot1_normal.png"; 
-       document.getElementById("avatar2").src = "avatar/_bot2_normal.png";
-       document.getElementById("avatar3").src = "avatar/_bot3_normal.png";
-       document.getElementById("avatar4").src = "avatar/_bot4_normal.png";
-       document.getElementById("avatar5").src = "avatar/_bot5_normal.png";
-       document.getElementById("avatar6").src = "avatar/_bot6_normal.png";
-       document.getElementById("avatar7").src = "avatar/_bot7_normal.png";
-       document.getElementById("avatar8").src = "avatar/_bot8_normal.png";
+       document.getElementById("avatar1").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot1_normal.png"; 
+       document.getElementById("avatar2").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot2_normal.png";
+       document.getElementById("avatar3").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot3_normal.png";
+       document.getElementById("avatar4").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot4_normal.png";
+       document.getElementById("avatar5").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot5_normal.png";
+       document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_normal.png";
+       document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot7_normal.png";
+       document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png";
    
       } else {
         end_msg += "\n\nSorry, you lost.";
