@@ -59,7 +59,7 @@ function internal_GetCardImageUrl (card) {
   rank = internal_FixTheRanking(rank); // 14 -> 'ace' etc
   suit = internal_FixTheSuiting(suit); // c  -> 'clubs' etc
 
-  return "url('static/images/" + rank + "_of_" + suit + ".png')";
+  return "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/" + rank + "_of_" + suit + ".png')";
 }
 
 function internal_setBackground (diva, image, opacity) {
@@ -76,11 +76,11 @@ function internal_setCard (diva, card, folded) {
   var opacity = 1.0;
   if (typeof card === 'undefined') {
     alert('Undefined card ' + card);
-    image = "url('static/images/outline.gif')";
+    image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/outline.gif')";
   } else if (card === "") {
-    image = "url('static/images/outline.gif')";
+    image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/outline.png')";
   } else if (card === "blinded") {
-    image = "url('static/images/cardback.png')";
+    image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.gif')";
   } else {
     if (folded) {
       opacity = 1;
@@ -551,7 +551,7 @@ function gui_initialize_css () {
   var image;
   var item;
   item = document.getElementById('poker_table');
-  image = "url('static/images/poker_table.png')";
+  image = "url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/poker_table.png')";
   internal_setBackground(item, image, 1.0);
 }
 
