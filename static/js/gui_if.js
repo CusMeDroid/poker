@@ -152,7 +152,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 1 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[0];
-               var avatarimage = "avatar/_bot" + botarray[0] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[0] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;   
                $("#botspeech1").text("I win...");
                $("#botspeech1").show().delay(5000).fadeOut();
@@ -160,7 +160,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 2 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[1];
-               var avatarimage = "avatar/_bot" + botarray[1] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[1] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech2").text("I win...");
                $("#botspeech2").show().delay(5000).fadeOut();
@@ -168,7 +168,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 3 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[2];
-               var avatarimage = "avatar/_bot" + botarray[2] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[2] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech3").text("I win...");
                $("#botspeech3").show().delay(5000).fadeOut();
@@ -176,7 +176,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 4 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[3];
-               var avatarimage = "avatar/_bot" + botarray[3] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[3] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech4").text("I win...");
                $("#botspeech4").show().delay(5000).fadeOut();
@@ -184,7 +184,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 5 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[4];
-               var avatarimage = "avatar/_bot" + botarray[4] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[4] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech5").text("I win...");
                $("#botspeech5").show().delay(5000).fadeOut();
@@ -192,7 +192,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 6 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[5];
-               var avatarimage = "avatar/_bot" + botarray[5] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[5] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech6").text("I win...");
                $("#botspeech6").show().delay(5000).fadeOut();
@@ -200,7 +200,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 7 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[6];
-               var avatarimage = "avatar/_bot" + botarray[6] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[6] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech7").text("I win...");
                $("#botspeech7").show().delay(5000).fadeOut();
@@ -208,7 +208,7 @@ function gui_hilite_player (hilite_color, name_color, seat, firedup) {
   if (seat == 8 && hilite_color == 'red')
   {
                var avatarname = "avatar" + botarray[7];
-               var avatarimage = "avatar/_bot" + botarray[7] + "_winner.png"
+               var avatarimage = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot" + botarray[7] + "_winner.png"
                document.getElementById(avatarname).src = avatarimage;
                $("#botspeech8").text("I win...");
                $("#botspeech8").show().delay(5000).fadeOut();
