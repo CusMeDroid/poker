@@ -900,11 +900,6 @@ function handle_end_of_round () {
        document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png";    
   } else {
     HUMAN_WINS_AGAIN = 0;
-
-    
-    
-    
-  
   }
 
   var detail = "";
@@ -1028,14 +1023,6 @@ function ready_for_next_card () {
   var i;
   for (i = 0; i < players.length; i++) {
     players[i].total_bet += players[i].subtotal_bet;
-    
-    
-                 
-    
-    
-    
-    
-    
   }
   clear_bets();
   if (board[4]) {
@@ -1088,11 +1075,6 @@ function the_bet_function (player_index, bet_amount) {
     if (players[player_index].subtotal_bet + bet_amount > current_bet_amount) {
       current_bet_amount = players[player_index].subtotal_bet + bet_amount;
     }
-    
-                  
-    
-    
-    
 
     // current_min_raise should be calculated earlier ? <--
     var new_current_min_raise = current_bet_amount - old_current_bet;
@@ -1147,8 +1129,6 @@ function the_bet_function (player_index, bet_amount) {
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
                document.getElementById("bbet9").style.background = "lawngreen";
-               
-
      
   } else if (current_bet_amount >
              players[player_index].subtotal_bet + bet_amount) { // 2 SMALL
@@ -1173,9 +1153,7 @@ function the_bet_function (player_index, bet_amount) {
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
                document.getElementById("bbet9").style.background = "lawngreen";
-               
-               
-               
+    
     if (player_index == 0) {
       my_pseudo_alert("The current bet to match is " + current_bet_amount +
                       "\nYou must bet a total of at least " +
@@ -1252,8 +1230,6 @@ function the_bet_function (player_index, bet_amount) {
   }
   players[player_index].subtotal_bet += bet_amount;
   players[player_index].bankroll -= bet_amount;
-
-      
                checkblinds++;
                if (player_index == 0 && players[0].subtotal_bet == 0 && checkblinds > 3)
                {
@@ -2639,7 +2615,7 @@ function write_player (n, hilite, show_cards) {
     name_font_color = 'black';
   } else if (hilite == 2) {       // Winner
     name_background_color = 'red';
-    firedup = "url(static/images/fire.gif)";
+    firedup = "url(https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/fire.gif)";
    
   }
   if (players[n].status == "FOLD") {
