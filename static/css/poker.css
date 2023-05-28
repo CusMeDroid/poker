@@ -151,7 +151,7 @@
     left: 5px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.gif');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -163,7 +163,7 @@
     left: 46px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.gif');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -175,7 +175,7 @@
     left: -15px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.gif');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
@@ -187,7 +187,7 @@
     left: 26px;
     position: absolute;
     transform: rotate(0deg);
-    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.png');
+    background-image: url('https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/cardback.gif');
     background-size: 100%;
     border-radius: 4px;
     height:75px;
