@@ -651,22 +651,19 @@ function main () {
         //left: 140px;
         //top: 260px;
         //left: 550px;
-        
-            //chipsmarkers
+        //chipsmarkers
           
-         
-        
       }
       var quick_bets = "";
       for (i = 0; i < 6; i++) {
         if (quick_values[i]) {
           quick_bets += "<a href='javascript:parent.handle_human_bet(" +
-                        quick_values[i] + ")' class= 'grad"+ i +"'>" + quick_values[i] + "</a>" +
+                        quick_values[i] + ")' id='grad"+ i +"' class= 'grad"+ i +"'>" + quick_values[i] + "</a>" +
                         "";
         }
       }
       quick_bets += "<a href='javascript:parent.handle_human_bet(" +
-                    players[0].bankroll + ")' class='grad6'>All In!</a>";
+                    players[0].bankroll + ")' id='grad6' class='grad6'>All In!</a>";
       var html9 = "<td><table align=center><tr><td align=center>";
       var html10 = quick_bets +
                    "</td></tr></table></td></tr></table></body></html>";
@@ -681,6 +678,43 @@ function main () {
       gui_write_game_response(message);
       
       write_player(0, 1, 0);
+
+        $(document).ready(function(){
+          $("#grad0").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad1").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad2").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad3").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad4").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad5").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $("#grad6").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+            
       return;
     } else {
       write_player(current_bettor_index, 1, 0);
