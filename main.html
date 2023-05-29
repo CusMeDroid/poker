@@ -118,9 +118,19 @@
             border-radius: 2px; 
             background-size: 35px 20px, 100% 100%, 100% 100%;
         }
+        #zpexit {
+            width: 48px;
+            height: 48px;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
     </style>
 </head>
 <body id="myCopyright" onload="parent.init(), checktable(), prechecksound()">
+    <a id="zpexit" href="./">
+        <img width="48px" height="48px" src="https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/quit.png">
+    </a>
     <script>
     var botarray = [1,2,3,4,5,6,7,8];
     function shufflebots(array) {
@@ -538,7 +548,7 @@ function display_allbot8pokerchips() {
  
     <div id="cheatsheet">
         <div id="hhssl">⚙️ Show/Hide ⚙️</div>
-        <div id="cuksek">
+        <div id="cuksek" class="cuksek">
             <div id="tik" style="max-width: 338px;margin: 0 auto;left: 0; right: 0;height:24px; background-image: url('static/images/buttonlcd.png');position: absolute;display:none;">
                 <div id="game-response2" class="textVerticalScroll" style="margin-left: 20px; margin-right: 20px;border-radius:0 0 15px 15px;font-family: digital !important;max-width:338px;left: 0; right: 0;height:24px;color:blue;top:0;vertical-align:middle;margin:0 auto; text-align: center;font-size: 16px !important; line-height: 18px;z-index: 9999999;text-decoration: none !important;padding-left: 20px; padding-right: 20px;"></div>
             </div>
@@ -607,41 +617,6 @@ function display_allbot8pokerchips() {
         });
         $(document).ready(function(){
           $("#call-button").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad0").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad1").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad2").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad3").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad4").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad5").click(function(){
-            $("#cuksek").hide();
-          });
-        });
-        $(document).ready(function(){
-          $(".grad6").click(function(){
             $("#cuksek").hide();
           });
         });
