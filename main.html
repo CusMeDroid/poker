@@ -146,30 +146,28 @@
 <div style="z-index:9999999;width:100%;height:24px;position:fixed;background: #000;bottom:0;margin: 0 auto;display:none;">
 <progress id="myprogress" max="100" value="0" style="top:5px;left:0;right:0;width:650px;height:14px;z-index:9999999;margin:0 auto;position:absolute;display:none;"></progress>
 </div>
-
     <div id="poker_table" class="poker-table" data-uid="">
-     
-<script>
-display_allpokerchips();
-function display_allpokerchips() {
-// Here has to be some error!!! //
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipred.png' id='mypokerchipred" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipblue.png' id='mypokerchipblue" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipgreen.png' id='mypokerchipgreen" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipblack.png' id='mypokerchipblack" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipgold.png' id='mypokerchipgold" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
-}
-}     
-</script>     
+        <script>
+        display_allpokerchips();
+        function display_allpokerchips() {
+            // Here has to be some error!!! //
+            for (var i=0; i < 20;i++) {
+                document.write("<img src='static/images/thepokerchipred.png' id='mypokerchipred" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
+            }
+            for (var i=0; i < 20;i++) {
+                document.write("<img src='static/images/thepokerchipblue.png' id='mypokerchipblue" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
+            }
+            for (var i=0; i < 20;i++) {
+                document.write("<img src='static/images/thepokerchipgreen.png' id='mypokerchipgreen" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
+            }
+            for (var i=0; i < 20;i++) {
+                document.write("<img src='static/images/thepokerchipblack.png' id='mypokerchipblack" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
+            }
+            for (var i=0; i < 20;i++) {
+                document.write("<img src='static/images/thepokerchipgold.png' id='mypokerchipgold" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);z-index:9999999;'>");
+            }
+        }     
+        </script>     
      
         <div id="seat0" class="seat">
             <div class="holecards" id="hcplayer">
@@ -180,29 +178,29 @@ function display_allpokerchips() {
             <div class="name-chips" id="playernamechips">
                 <div class="player-name" id="mplayername"></div>
                 <div class="chips" id="mplayerchips"></div>
-              <div id="button0" class="seat0-button"></div>
+                <div id="button0" class="seat0-button"></div>
               
-<script>
-display_allplayerpokerchips();
-function display_allplayerpokerchips() {
-// Here has to be some error!!! //
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipred.png' id='playerchipred" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
-}
- for (var i=0; i < 20; i++) {
-    document.write("<img src='static/images/thepokerchipblue.png' id='playerchipblue" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipgreen.png' id='playerchipgreen" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipblack.png' id='playerchipblack" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
-}
- for (var i=0; i < 20;i++) {
-    document.write("<img src='static/images/thepokerchipgold.png' id='playerchipgold" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
-}
-}     
-</script>                
+                <script>
+                display_allplayerpokerchips();
+                function display_allplayerpokerchips() {
+                    // Here has to be some error!!! //
+                    for (var i=0; i < 20;i++) {
+                        document.write("<img src='static/images/thepokerchipred.png' id='playerchipred" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
+                    }
+                    for (var i=0; i < 20; i++) {
+                        document.write("<img src='static/images/thepokerchipblue.png' id='playerchipblue" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
+                    }
+                    for (var i=0; i < 20;i++) {
+                        document.write("<img src='static/images/thepokerchipgreen.png' id='playerchipgreen" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
+                    }
+                    for (var i=0; i < 20;i++) {
+                        document.write("<img src='static/images/thepokerchipblack.png' id='playerchipblack" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
+                    }
+                    for (var i=0; i < 20;i++) {
+                        document.write("<img src='static/images/thepokerchipgold.png' id='playerchipgold" + i + "' style='display:none;width:32px;height:32px;-webkit-filter: drop-shadow(0px 0px 1px #000);filter: drop-shadow(0px 0px 1px #000);'>");
+                    }
+                }     
+                </script>                
               
             </div>
    
@@ -438,12 +436,12 @@ function display_allbot6pokerchips() {
             <div class="holecards" id="bcplayer">
                 <div class="card holecard1" id="bplayer1"></div>
                 <div class="card holecard2" id="bplayer2"></div>
-                                           <span class="speech-bubble" style="display:none" id="botspeech7"></span>  
+                <span class="speech-bubble" style="display:none" id="botspeech7"></span>  
             </div>
             <div class="name-chips" id="botnamechips">
-                    <script>
-     document.write("<img src='' width='48' height='48' id='avatar" + botarray[6] + "' style='padding: 0 !important;' class='avatar'>");             
-     </script>
+            <script>
+                document.write("<img src='' width='48' height='48' id='avatar" + botarray[6] + "' style='padding: 0 !important;' class='avatar'>");             
+            </script>
                 <div class="player-name" id="bplayername"></div>
                 <div class="chips" id="bplayerchips"></div>
                     <div id="button7" class="seat7-button"></div>
@@ -475,7 +473,7 @@ function display_allbot7pokerchips() {
             <div class="holecards" id="bcplayer">
                 <div class="card holecard1" id="bplayer1"></div>
                 <div class="card holecard2" id="bplayer2"></div>
-                                                 <span class="speech-bubble" style="display:none" id="botspeech8"></span>   
+                <span class="speech-bubble" style="display:none" id="botspeech8"></span>   
             </div>
             <div class="name-chips" id="botnamechips">
            <script>
@@ -512,10 +510,9 @@ function display_allbot8pokerchips() {
             <div class="holecards" id="bcplayer">
                 <div class="card holecard1" id="bplayer1"></div>
                 <div class="card holecard2" id="bplayer2"></div>
-                         <img src="" style="width:64px;height:64px;padding: 0 !important;" id="avatar9" class="avatar"><span class="speech-bubble" style="display:none" id="botspeech8"></span>   
+                <img src="" style="width:64px;height:64px;padding: 0 !important;" id="avatar9" class="avatar"><span class="speech-bubble" style="display:none" id="botspeech8"></span>   
             </div>
             <div class="name-chips" id="botnamechips">
-      
                 <div class="player-name" id="bplayername"></div>
                 <div class="chips" id="bplayerchips"></div>
                 <div id="button9" class="seat9-button"></div>
@@ -553,7 +550,7 @@ function display_allbot8pokerchips() {
                 </div>
                 <div id="quick-raises" style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis;"></div>
                 <div id="logo" style="background: #000;height:118px;width:298px;margin-top:84px;border-top: 1px solid yellowgreen; border-bottom: 1px solid yellowgreen;display:none"><span class="speech-bubble" style="display:none" id="botspeech9"></span> 
-                    <div id="game-response" class="normal-response"></div>
+                <div id="game-response" class="normal-response"></div>
                 </div> 
                  <div id="setup-options" style="margin-top:84px;">
                    <div id="name-button" class="setup-button">name</div>
@@ -610,6 +607,51 @@ function display_allbot8pokerchips() {
         });
         $(document).ready(function(){
           $("#call-button").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad0").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad1").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad2").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad3").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad4").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad5").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad6").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad7").click(function(){
+            $("#cuksek").hide();
+          });
+        });
+        $(document).ready(function(){
+          $(".grad8").click(function(){
             $("#cuksek").hide();
           });
         });
@@ -682,7 +724,8 @@ clickonce = 1;
     }
 
     </style>
-  
+
+
       <div id="history" style="display:none;"></div> 
       <div id="production-code" style="color:#aaa !important;display:none"></div>
     <div id="modal-box" style="display:none"></div>
@@ -816,6 +859,7 @@ audio8 = new Audio('');
     
 }
 
+
 </script>
 <script>
 var currenttable = 0;
@@ -876,5 +920,4 @@ currenttable = 0;
 setLocalStorage("currenttable", currenttable);
 }
 </script>
- 
 </html>
