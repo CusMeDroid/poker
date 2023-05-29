@@ -216,15 +216,15 @@ for (var x = 0; x < 20; x++)
 
 function new_game_continues (req_no_opponents) {
   var my_players = [
-                    new player("Olivia", 0, "", "", "", 0, 0),
-                    new player("Emma", 0, "", "", "", 0, 0),
-                    new player("Eva", 0, "", "", "", 0, 0),
-                    new player("Sophia", 0, "", "", "", 0, 0),
-                    new player("Isabella", 0, "", "", "", 0, 0),
-                    new player("Charlotte", 0, "", "", "", 0, 0),
-                    new player("Amelia", 0, "", "", "", 0, 0),
-                    new player("Mia", 0, "", "", "", 0, 0),
-                    new player("Harper", 0, "", "", "", 0, 0)
+                    new player("Mpis", 0, "", "", "", 0, 0),
+                    new player("Egi", 0, "", "", "", 0, 0),
+                    new player("Mey", 0, "", "", "", 0, 0),
+                    new player("Sti", 0, "", "", "", 0, 0),
+                    new player("Put", 0, "", "", "", 0, 0),
+                    new player("Ndah", 0, "", "", "", 0, 0),
+                    new player("Iee", 0, "", "", "", 0, 0),
+                    new player("Nisa", 0, "", "", "", 0, 0),
+                    new player("Tya", 0, "", "", "", 0, 0)
                    ];
 
   players = new Array(req_no_opponents + 1);
