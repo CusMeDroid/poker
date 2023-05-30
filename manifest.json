@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "dir": "auto",
+  "name": "Zigana Poker",
+  "short_name": "Zigana Poker",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "id": "/main.html",
+  "start_url": "https://www.cusmedroid.ink/poker",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "darkred",
+  "background_color": "darkred",
+  "shortcuts": [
+    {
+      "name": "Zigana Poker",
+      "short_name": "Zigana Poker",
+      "description": "Enjoy to playing Zigana Poker!",
+      "url": "https://www.cusmedroid.ink/cv/poker/",
+      "icons": [{ "src": "favicon.png", "sizes": "512x512" }]
+    }
+  ],
+  "description": "Enjoy to playing Zigana Poker!",
+  "screenshots": [
+    {
+      "src": "https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/ss_poker.jpg",
+      "type": "image/jpg",
+      "sizes": "854x1280"
+    }
+  ]
+}
