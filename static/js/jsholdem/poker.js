@@ -210,8 +210,6 @@ for (var x = 0; x < 20; x++)
   initialize_game();
   ask_how_many_opponents();
   checktable();
-
-
 }
 
 function new_game_continues (req_no_opponents) {
@@ -256,27 +254,11 @@ function new_game_continues (req_no_opponents) {
   players[6] = my_players[mybot6 -1];
   players[7] = my_players[mybot7 -1];
   players[8] = my_players[mybot8 -1];  
-  
-  
-  
-  
-  
   clear_player_cards(my_players.length);
   reset_player_statuses(0);
   clear_bets();
   for (i = 0; i < players.length; i++) {
     players[i].bankroll = STARTING_BANKROLL;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   }
   button_index = Math.floor(Math.random() * players.length);
   new_round();
@@ -376,8 +358,7 @@ for (var x = 0; x < 20; x++)
                document.getElementById("bbet8").style.background = "black"; 
             
                document.getElementById("bbet9").style.background = "black";  
-               
-           
+        
   var message = "<b>New round</b>&nbsp;&nbsp;";
   checkblinds = 0;
   var getmycurrenttime = new Date().toLocaleString();
@@ -874,7 +855,6 @@ function handle_end_of_round () {
  //   gui_log_to_history( "[" + getmycurrenttime + "] " + "End of Round");
 
     mydealershowonce = 0;
-    
 
   } // End of pot distribution
 
@@ -1013,7 +993,6 @@ function handle_end_of_round () {
        document.getElementById("avatar6").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot6_normal.png";
        document.getElementById("avatar7").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot7_normal.png";
        document.getElementById("avatar8").src = "https://raw.githubusercontent.com/CusMeDroid/poker/main/avatar/_bot8_normal.png";
-   
       } else {
         end_msg += "\n\nSorry, you lost.";
       }
@@ -1135,11 +1114,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 8)
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
-               document.getElementById("bbet9").style.background = "lawngreen";
-               
-             
-               
-               
+               document.getElementById("bbet9").style.background = "lawngreen";         
   } else if (bet_amount + players[player_index].subtotal_bet ==
              current_bet_amount) { // CALL
     players[player_index].status = "CALL";
@@ -1162,8 +1137,7 @@ function the_bet_function (player_index, bet_amount) {
                if (player_index == 8)
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
-               document.getElementById("bbet9").style.background = "lawngreen";
-     
+               document.getElementById("bbet9").style.background = "lawngreen";  
   } else if (current_bet_amount >
              players[player_index].subtotal_bet + bet_amount) { // 2 SMALL
     // COMMENT OUT TO FIND BUGS
@@ -1187,7 +1161,6 @@ function the_bet_function (player_index, bet_amount) {
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
                document.getElementById("bbet9").style.background = "lawngreen";
-    
     if (player_index == 0) {
       my_pseudo_alert("The current bet to match is " + current_bet_amount +
                       "\nYou must bet a total of at least " +
@@ -1220,8 +1193,6 @@ function the_bet_function (player_index, bet_amount) {
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
                document.getElementById("bbet9").style.background = "lawngreen";
-               
-
     if (player_index == 0) {
       my_pseudo_alert("Minimum raise is currently " + current_min_raise + ".");
     }
@@ -1248,10 +1219,7 @@ function the_bet_function (player_index, bet_amount) {
                document.getElementById("bbet8").style.background = "lawngreen";
                if (player_index == 9)
                document.getElementById("bbet9").style.background = "lawngreen";
-               
-                        
-               
-               
+        
     var previous_current_bet = current_bet_amount;
     current_bet_amount = players[player_index].subtotal_bet + bet_amount;
 
@@ -1392,7 +1360,6 @@ function the_bet_function (player_index, bet_amount) {
      playerremainder = playerremainder - (10 * tens);
      var fives = multiplies5(playerremainder)
      playerremainder = playerremainder - (5 * fives);
-     
 
         for (var reds = 0; reds < fives; reds++)
         {
@@ -1461,15 +1428,9 @@ function the_bet_function (player_index, bet_amount) {
         }
         playerpotposition -= 3;
         playerrandompokerchips++; 
-        }  
+        }
         
-
-        
-        
-        //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                mybankrollchipsend
-  
-  
-//botsbankrollchips
+        //botsbankrollchips
   
         for (var x = 0; x < 20; x++)
         {
@@ -1557,7 +1518,6 @@ function the_bet_function (player_index, bet_amount) {
      var bot6graphicpot = 0;
      var bot7graphicpot = 0;
      var bot8graphicpot = 0;
-     
      
      var bot1randomleft = 108;
      var bot1randomtop = -20;
@@ -1678,8 +1638,7 @@ function the_bet_function (player_index, bet_amount) {
      bot8remainder = bot8remainder - (10 * bot8tens);
      var bot8fives = multiplies5(bot8remainder)
      bot8remainder = bot8remainder - (5 * bot8fives);
-     
-     
+
         for (var reds = 0; reds < bot1fives; reds++)
         {
         if (bot1randompokerchips < 20)
@@ -1747,8 +1706,7 @@ function the_bet_function (player_index, bet_amount) {
         }
         bot1potposition -= 3;
         bot1randompokerchips++; 
-        }  
-        
+        }
         
         for (var reds = 0; reds < bot2fives; reds++)
         {
@@ -1818,7 +1776,6 @@ function the_bet_function (player_index, bet_amount) {
         bot2potposition -= 3;
         bot2randompokerchips++; 
         }  
- 
  
         for (var reds = 0; reds < bot3fives; reds++)
         {
@@ -2232,8 +2189,7 @@ function the_bet_function (player_index, bet_amount) {
         }
         bot8potposition -= 3;
         bot8randompokerchips++; 
-        }  
- 
+        }
         
         //   botsmybankrollchipsend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
   
@@ -2619,13 +2575,6 @@ function bet_from_bot (x) {
                }
                if (x == 9)
                document.getElementById("bbet9").style.background = "lawngreen"; 
-               
-               
-      
-               
-               
-               
-
     }
   }
   if (the_bet_function(x, b) == 0) {
@@ -2650,7 +2599,6 @@ function write_player (n, hilite, show_cards) {
   } else if (hilite == 2) {       // Winner
     name_background_color = 'red';
     firedup = "url(https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/fire.gif)";
-   
   }
   if (players[n].status == "FOLD") {
     name_font_color = 'black';
@@ -2663,10 +2611,7 @@ function write_player (n, hilite, show_cards) {
     firedup = "linear-gradient(45deg, #666666, #333333)";
   }
   gui_hilite_player(name_background_color, name_font_color, n, firedup);
-  
 
-  
-  
   var show_folded = false;
   // If the human is out of the game
   if (players[0].status == "BUST" || players[0].status == "FOLD") {
@@ -2854,13 +2799,9 @@ function write_player (n, hilite, show_cards) {
       
     }
   } else {
-
     bet_text = allin + "$" + players[n].subtotal_bet +
                " (" + (players[n].subtotal_bet + players[n].total_bet) + ")";
                (players[n].subtotal_bet + players[n].total_bet) + ")";
-               
-
- 
   }
 
   gui_set_player_name(players[n].name, n);    // offset 1 on seat-index
@@ -2943,7 +2884,6 @@ function get_pot_size () {
      var fives = multiplies5(remainder)
      remainder = remainder - (5 * fives);
 
-
         for (var reds = 0; reds < fives; reds++)
         {
         if (randompokerchips < 20)
@@ -3021,8 +2961,6 @@ function get_pot_size () {
 }
 
 function get_pot_size_html () {
-
-  
     return "<font><b>TOTAL POT: " + get_pot_size() + "</b></font>";
 
 }
