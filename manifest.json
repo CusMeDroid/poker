@@ -29,9 +29,19 @@
   "description": "Enjoy to playing Zigana Poker!",
   "screenshots": [
     {
-      "src": "https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/ss_poker.jpg",
+      "src": "https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/zp_001_splash.jpg",
       "type": "image/jpg",
-      "sizes": "854x1280"
+      "sizes": "1280x720"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/zp_002_play.jpg",
+      "type": "image/jpg",
+      "sizes": "1280x720"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/CusMeDroid/poker/main/static/images/zp_003_settings.jpg",
+      "type": "image/jpg",
+      "sizes": "1280x720"
     }
   ]
 }
