@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "scope": "/",
+  "scope": "/poker",
   "id": "/main.html",
-  "start_url": "https://cusmedroid.github.io/poker",
+  "start_url": "https://cusmedroid.github.io/",
   "display": "fullscreen",
   "orientation": "landscape",
   "theme_color": "darkred",
@@ -25,7 +25,7 @@
       "name": "Zigana Poker",
       "short_name": "Zigana Poker",
       "description": "Enjoy to playing Zigana Poker!",
-      "url": "https://cusmedroid.github.io/poker",
+      "url": "https://cusmedroid.github.io/poker/",
       "icons": [{ "src": "favicon.png", "sizes": "512x512" }]
     }
   ],
