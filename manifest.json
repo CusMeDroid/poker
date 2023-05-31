@@ -25,7 +25,6 @@
       "name": "Zigana Poker",
       "short_name": "Zigana Poker",
       "description": "Enjoy to playing Zigana Poker!",
-      "url": "https://cusmedroid.github.io/poker/index.html",
       "icons": [{ "src": "favicon.png", "sizes": "512x512" }]
     }
   ],
