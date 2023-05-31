@@ -13,8 +13,8 @@
     }
   ],
   "scope": "/",
-  "id": "/poker",
-  "start_url": "https://www.cusmedroid.ink",
+  "id": "/index.html",
+  "start_url": "https://www.cusmedroid.ink/poker",
   "display": "fullscreen",
   "orientation": "landscape",
   "theme_color": "darkred",
