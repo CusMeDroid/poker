@@ -10,7 +10,7 @@
       "protocol": "web+ziganapoker",
       "url": "/index.html?type=%s"
     }
-  ]
+  ],
   "icons": [
     {
       "src": "favicon.png",
