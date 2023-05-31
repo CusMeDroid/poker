@@ -1,5 +1,4 @@
 {
-  "manifest_version": 3,
   "lang": "en",
   "dir": "auto",
   "name": "Zigana Poker",
@@ -25,6 +24,7 @@
       "name": "Zigana Poker",
       "short_name": "Zigana Poker",
       "description": "Enjoy to playing Zigana Poker!",
+      "url": "https://cusmedroid.github.io/poker",
       "icons": [{ "src": "favicon.png", "sizes": "512x512" }]
     }
   ],
