@@ -7,11 +7,11 @@
   "version": "2",
   "protocol_handlers": [
     {
-      "protocol": "web+ziganapoker",
+      "protocol": "https://cusmedroid.ink/poker/",
       "url": "/lookup?type=%s"
     },
     {
-      "protocol": "web+ziganapokerstore",
+      "protocol": "https://cusmedroid.ink/poker/",
       "url": "/shop?for=%s"
     }
   ],
