@@ -7,11 +7,11 @@
   "version": "2",
   "protocol_handlers": [
     {
-      "protocol": "web+poker",
+      "protocol": "web+ziganapoker",
       "url": "/lookup?type=%s"
     },
     {
-      "protocol": "web+pokerstore",
+      "protocol": "web+ziganapokerstore",
       "url": "/shop?for=%s"
     }
   ],
