@@ -7,7 +7,7 @@
   "version": "2",
   "protocol_handlers": [
     {
-      "protocol": "cusmedroid+ziganapoker",
+      "protocol": "web+ziganapoker",
       "url": "/index.html?type=%s"
     }
   ],
