@@ -9,10 +9,6 @@
     {
       "protocol": "web+ziganapoker",
       "url": "/index.html?type=%s"
-    },
-    {
-      "protocol": "web+ziganapoker",
-      "url": "/index.html?type=%s"
     }
   ]
   "icons": [
